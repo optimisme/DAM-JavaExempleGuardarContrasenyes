@@ -16,6 +16,13 @@ A Windows Powershell:
 .\compile.bat
 ```
 
+Or, from Visual Studio Code:
+
+```
+"Terminal > Run task > Compile Project"
+
+```
+
 ### Llicència ###
 
 Tenir en compte les llicències MIT de "password4j" i "slf4j":
