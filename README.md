@@ -7,13 +7,13 @@ En aquest projecte hi ha un exemple de com ocultar contrasenyes per tal que sigu
 A Linux i OSX:
 
 ```
-./run.sh
+./compile.sh
 ```
 
 A Windows Powershell:
 
 ```
-.\run.bat
+.\compile.bat
 ```
 
 ### Llicència ###
