@@ -42,6 +42,7 @@ if not exist %folderRelease% mkdir %folderRelease%
 :: Move the Project.jar file to the release directory
 move %folderDevelopment%\Project.jar %folderRelease%\Project.jar
 xcopy /E /I %folderDevelopment%\lib %folderRelease%\lib
+xcopy /s "%folderDevelopment%\psw4j.properties" "%folderRelease%\"
 
 :: Create the 'run.bat' file
 echo java -cp Project.jar:$CLASSPATH Main > run.bat
