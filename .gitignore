@@ -25,3 +25,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 bin/*
+
+# Ignore release folder
+Release/
+node_modules
