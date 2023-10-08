@@ -1,3 +1,5 @@
+package com.project;
+
 import com.password4j.Password;
 
 class Main {

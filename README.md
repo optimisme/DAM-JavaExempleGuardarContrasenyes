@@ -4,29 +4,18 @@ En aquest projecte hi ha un exemple de com ocultar contrasenyes per tal que sigu
 
 ### Compilació i funcionament ###
 
-A Linux i OSX:
-
-```
-./compile.sh
-```
-
-A Windows Powershell:
-
-```
-.\compile.bat
+Cal el 'Maven' per compilar el projecte
+```bash
+mvn clean
+mvn compile
 ```
 
-Or, from Visual Studio Code:
-
-```
-"Terminal > Run task > Compile Project"
-
+Per executar el projecte a Windows cal
+```bash
+.\run.ps1 com.project.Main
 ```
 
-### Llicència ###
-
-Tenir en compte les llicències MIT de "password4j" i "slf4j":
-
-[password4j](https://github.com/Password4j/password4j)
-
-[slf4j](https://www.slf4j.org/)
+Per executar el projecte a Linux/macOS cal
+```bash
+./run.sh com.project.Main
+```
